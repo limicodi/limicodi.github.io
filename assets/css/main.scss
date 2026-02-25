@@ -1,0 +1,128 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/default"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* ===== Single-Page Custom Styles ===== */
+
+/* Sticky header with solid background */
+.masthead {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: $background-color;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Offset sidebar so it doesn't overlap the sticky header */
+.sidebar.sticky {
+  top: 70px;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset anchor targets so they don't hide behind the sticky masthead */
+section[id] {
+  scroll-margin-top: 70px;
+}
+
+/* Section spacing */
+section.page__content {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid $border-color;
+}
+
+section.page__content:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* Projects horizontal cards */
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.project-card {
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 1em 1.5em;
+}
+
+.project-card .archive__item-excerpt {
+  font-size: 0.85em;
+  margin-bottom: 0.5em;
+}
+
+/* Hide footer wrapper */
+.page__footer {
+  display: none;
+}
+
+/* Publication cards */
+.pub-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.pub-card {
+  border: 1px solid $border-color;
+  border-radius: 4px;
+  padding: 1em 1.5em;
+}
+
+.pub-venue {
+  font-size: 0.75em;
+  margin-bottom: 0.3em;
+  color: $muted-text-color;
+}
+
+.pub-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: $text-color;
+  margin-bottom: 0.3em;
+  line-height: 1.4;
+}
+
+.pub-authors {
+  font-style: italic;
+  color: $muted-text-color;
+  font-size: 0.85em;
+  margin-bottom: 0.5em;
+}
+
+.pub-links {
+  margin: 0;
+}
+
+/* Experience description font size*/
+#experience .archive__item-excerpt.exp-description {
+  font-size: 0.8em !important;
+}
+
+/* Projects description font size*/
+#projects .archive__item-excerpt.proj-description {
+  font-size: 0.8em !important;
+}
+
+/* Achievements description font size*/
+#achievements .archive__item-excerpt.achv-description {
+  font-size: 0.8em !important;
+}
+
+/* Active nav link highlighting */
+.greedy-nav a.active-section {
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+}

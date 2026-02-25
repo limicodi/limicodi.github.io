@@ -1,0 +1,24 @@
+- title: "AI Research and Development Engineer"
+  organization: "Bimodeling Data-Tech (Hong Kong) Ltd."
+  date: "Aug 2025 – Present"
+  description: "Designed a model-to-site validation system that extracts BIM metadata via Revit MCP, implements VLM to identify object-level discrepancies against site imagery, and grounds detected issues through semantic segmentation for visual verification."
+
+- title: "Algorithm Engineer Research Assistant"
+  organization: "Hong Kong Center for Construction Robotics"
+  date: "Dec 2024 – Jul 2025"
+  description: "Developed a multi-modal, LLM-based multi-agent system for interactive 3D interior spatial design."
+
+- title: "Research Intern"
+  organization: "A*STAR - Agency for Science, Technology and Research"
+  date: "Nov 2023 – May 2024"
+  description: "Focused on cross-chain Maximal Extractable Value (cross-chain MEV) analysis in various blockchain ecosystem."
+
+- title: "Atom CPU Structural Design Graduate Trainee"
+  organization: "Intel Corporation"
+  date: "Jul 2022 – Jul 2023"
+  description: "Responsible for the RTL-to-GDSII flow for Atom CPU designs, supporting synthesis, place-and-route, timing closure, and ECO iterations while improving STA efficiency through TCL automation."
+
+- title: "Post Silicon Validation Intern"
+  organization: "Intel Corporation"
+  date: "May 2020 – Aug 2020"
+  description: "Developed Python-based automation and visualization tools for post-silicon validation, replacing proprietary software plug-in to accelerate analysis of signal integrity and test data."

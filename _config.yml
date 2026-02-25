@@ -1,0 +1,52 @@
+#To start locally:
+# bundle exec jekyll serve
+# Site settings
+title: Your Name
+email: your.email@example.com
+description: >-
+  Academic researcher and professional. Personal homepage showcasing
+  publications, experience, projects, and achievements.
+twitter_username: username
+github_username: username
+minimal_mistakes_skin: default
+search: false
+
+# Collections
+collections:
+  contents:
+    output: false
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+# No pagination needed for single-page site
+permalink: /:categories/:title/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Your Name"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : " "
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:your.email@example.com"
+

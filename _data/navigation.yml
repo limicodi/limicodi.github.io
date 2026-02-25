@@ -1,0 +1,11 @@
+main:
+  - title: "ABOUT"
+    url: "/#about"
+  - title: "PUBLICATIONS"
+    url: "/#publications"
+  - title: "EXPERIENCE"
+    url: "/#experience"
+  - title: "PROJECTS"
+    url: "/#projects"
+  - title: "ACHIEVEMENTS"
+    url: "/#achievements"

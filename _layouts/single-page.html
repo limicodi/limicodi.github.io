@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  {% include_cached sidebar.html %}
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="page__inner-wrap">
+      <div class="page__content" itemprop="text">
+
+        {% include section-about.html %}
+
+        {% include section-publications.html %}
+
+        {% include section-experience.html %}
+
+        {% include section-projects.html %}
+
+        {% include section-achievements.html %}
+
+      </div>
+    </div>
+  </article>
+</div>
+
+<script src="{{ '/assets/js/active-nav.js' | relative_url }}"></script>

@@ -1,0 +1,6 @@
+- title: "DEX Smart Contracts: Decentralized Exchange and Native Token on Polygon Amoy Testnet"
+  description: "Developed and deployed a decentralized exchange (Dex) and a native token (DXTK) on an Ethereum Layer 2 solution. The Dex enables users to buy, sell, and swap tokens, add liquidity to pools, and monitor assets and balances."
+  links:
+    - label: "Code"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ktyper231/AKD_DEX"

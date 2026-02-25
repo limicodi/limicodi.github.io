@@ -1,0 +1,18 @@
+<section id="achievements" class="page__content">
+  <h2 class="page__title">ACHIEVEMENTS</h2>
+  <div class="entries-list">
+    {% for achievement in site.data.achievements %}
+    <div class="list__item">
+      <article class="archive__item">
+        <h3 class="archive__item-title no_toc">
+          <i class="fas fa-fw fa-trophy"></i> {{ achievement.title }}
+        </h3>
+        <p class="page__meta">
+          <i class="fas fa-fw fa-calendar-alt"></i> {{ achievement.date }}
+        </p>
+        <p class="archive__item-excerpt achv-description">{{ achievement.description }}</p>
+      </article>
+    </div>
+    {% endfor %}
+  </div>
+</section>

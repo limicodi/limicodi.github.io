@@ -1,0 +1,17 @@
+<section id="publications" class="page__content">
+  <h2 class="page__title">PUBLICATIONS</h2>
+  <div class="pub-list">
+    {% for pub in site.data.publications %}
+    <div class="pub-card">
+      <div class="pub-venue"><em>{{ pub.venue }}</em>, {{ pub.year }}</div>
+      <div class="pub-title">{{ pub.title }}</div>
+      <div class="pub-authors">{{ pub.authors }}</div>
+      <div class="pub-links">
+        {% for link in pub.links %}
+          <a href="{{ link.url }}" class="btn btn--primary btn--small"><i class="{{ link.icon }}"></i> {{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
