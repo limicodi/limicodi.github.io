@@ -1,7 +1,7 @@
 - title: "AI Research and Development Engineer"
   organization: "Bimodeling Data-Tech (Hong Kong) Ltd."
   date: "Aug 2025 – Present"
-  description: "Designed a model-to-site validation system that extracts BIM metadata via Revit MCP, implements VLM to identify object-level discrepancies against site imagery, and grounds detected issues through semantic segmentation for visual verification."
+  description: "Designed and developed a model-to-site validation system that integrates multimodal reasoning, visual grounding, and spatial alignment to support real-world inspection workflows."
 
 - title: "Algorithm Engineer Research Assistant"
   organization: "Hong Kong Center for Construction Robotics"
