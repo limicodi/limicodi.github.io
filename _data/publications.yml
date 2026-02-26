@@ -9,3 +9,6 @@
     - label: "DOI"
       icon: "fas fa-fw fa-link"
       url: "#"
+    - label: "Website"
+      icon: "fas fa-fw fa-globe"
+      url: "#"

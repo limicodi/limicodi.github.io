@@ -1,12 +1,13 @@
 #To start locally:
 # bundle exec jekyll serve
 # Site settings
+url: "https://limicodi.github.io"
 title: Renjian Lim
-email: your.email@example.com
+#email: your.email@example.com
 description: >-
   Academic researcher and professional. Personal homepage website
 #twitter_username: username
-github_username: username
+#github_username: username
 minimal_mistakes_skin: default
 search: false
 
