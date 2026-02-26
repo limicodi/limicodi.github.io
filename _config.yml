@@ -18,7 +18,6 @@ collections:
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-repository: limicodi/limicodi.github.io
 
 # No pagination needed for single-page site
 permalink: /:categories/:title/
