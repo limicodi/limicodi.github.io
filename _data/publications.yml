@@ -3,12 +3,12 @@
   venue: "Association for Computer Aided Design in Architecture (ACADIA)"
   year: 2025
   links:
-    - label: "PDF(Coming Soon)"
+    - label: "Preprint"
       icon: "fas fa-fw fa-file-pdf"
-      url: "#"
+      url: "https://arxiv.org/abs/2603.15341"
     - label: "DOI(Coming Soon)"
       icon: "fas fa-fw fa-link"
       url: "#"
-    - label: "Website(Coming Soon)"
+    - label: "Website"
       icon: "fas fa-fw fa-globe"
-      url: "#"
+      url: "https://rsigktyper.github.io/AICodesign/"
